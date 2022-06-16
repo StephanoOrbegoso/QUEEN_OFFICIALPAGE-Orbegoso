@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <title>Document</title>
 </head>
+
 <body>
     <header id="header">
         <div class="divnavbar">
@@ -34,6 +36,9 @@
                             </li>
                             <li class="nav-item controlesdenavegacion">
                                 <a id="anavbar" class="nav-link active" href="#canciones">CANCIONES</a>
+                            </li>
+                            <li class="nav-item controlesdenavegacion">
+                                <a id="anavbar" class="nav-link active" href="#contactanos">CONTACTANOS</a>
                             </li>
                             <li class="nav-item controlesdenavegacion">
                                 <a id="anavbar" class="nav-link active" href="#nosotros">NOSOTROS</a>
@@ -92,6 +97,9 @@
             </div>
     </section>
     <section id="historia">
+        <h3 class="minititulos">
+            COMO SE CREO LA BANDA
+        </h3>
         <!-- su historia resumida -->
         <p class="historia">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, laudantium facere quasi
             exercitationem commodi veniam qui. Dolorem harum consequatur fugiat? Accusamus similique nam fuga doloremque
@@ -112,12 +120,29 @@
             iusto minus quasi sint, modi culpa repudiandae cupiditate quas autem aperiam eaque nulla, tenetur dolorum
             iste nemo a consectetur possimus?</p>
     </section>
+    <SECTIOn>
+        <h3 class="minititulos">
+            LA PELICULA
+        </h3>
+        <P class="historia">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum dolorum consequatur repellat
+            beatae vitae? Ab minima fuga aliquid fugit hic, quos blanditiis eos, eveniet quia praesentium sunt ratione
+            exercitationem. Iure!
+            Magni, nesciunt? Quo nulla a assumenda! Debitis porro ab reprehenderit exercitationem libero, est laudantium
+            reiciendis natus consectetur illo consequuntur doloremque id quasi, ratione repellat earum quos sint
+            aspernatur, molestias quae!
+            Minima architecto dolore at praesentium aut! Sed molestiae illum esse similique provident accusantium vitae
+            hic est vel, libero unde dolorem fugit fuga eaque recusandae sit? Ex amet nulla officiis voluptatem!</P>
+    </SECTIOn>
     <!--empieza area con grid de bootstrap-->
     <!-- mas populares -->
     <section id="populares" class="container">
         <section class="row secpopulares">
+            
+        <h3 class="minititulos">
+            CANCIONES MÁS POPULARES
+        </h3>
             <div class="card col-md col-sm-12 col-lg-4 divyoutube p-3 mb-2 bg-secondary">
-  
+
                 <div class="card-body youtubetittles">
                     <h5 class="card-title">WE WILL ROCK YOU</h5>
                 </div>
@@ -180,6 +205,9 @@
 
         <!-- aqui no pondre todas las canciones aún ya que son demasiadas pero hare las mas escuchadas por ahora-->
         <section class="row seccanciones">
+            <h3 class="minititulos">
+                LISTA DE CANCIONES
+            </h3>
             <div class="col-md col-sm-12 col-lg-4 divcanciones">
                 <nav class="navcanciones">
                     <ol class="masterlistofsongs">
@@ -372,6 +400,31 @@
         </section>
     </section>
 
+    <section id="contactanos">
+        <h6 class="tituloform">CONTÁCTANOS PARA MáS INFORMACIÓN</h6>
+    <section class="contactanos">
+        <form class="form" action="">
+            <p>Nombre:</p>
+            <input type="text" class="field"> <br />
+
+            <p>Correo electrónico:</p>
+            <input type="text" class="field"> <br />
+
+            <p>Asunto:</p>
+            <input type="text" class="field"> <br />
+
+            <p>Mensaje:</p>
+            <textarea class="field"></textarea> <br />
+
+            <p class="center-content">
+                <input type="submit" class="btn2 btn-green2" value="Enviar Datos">
+            </p>
+
+        </form>
+    </section>
+    </section>
+
+
     <!-- footer -->
     <footer id="nosotros">
         <div>
@@ -417,12 +470,13 @@
         </section>
 
 
+    </footer>
 
 
 
 
-
-        <!-- js bootstrap -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- js bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

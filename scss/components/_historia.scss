@@ -1,13 +1,10 @@
 @import "base/colors";
-#historia {
+
+.historia {
     display: flex;
     justify-self: center;
-
-    p {
-        font-size: 2em;
-        font-style: italic;
-        color: aliceblue;
-        background-color: $bg-historia;
-        margin: 13% 0 13% 0;
-    }
+    font-size: 2em;
+    font-style: italic;
+    color: $letras-basico;
+    background-color: $bg-historia;
 }

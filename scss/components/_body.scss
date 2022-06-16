@@ -1,6 +1,10 @@
 
 body {
-    background-image: url(img/back-ground2.jpg);
+    background-image: url(https://townsquare.media/site/295/files/2014/10/QueenAlbums.jpg?w=980&q=75);
     background-repeat: repeat;
     background-attachment: fixed;
+}
+
+.minititulos{
+   @extend %minititulos
 }

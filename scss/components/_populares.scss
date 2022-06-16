@@ -6,14 +6,24 @@
     grid-template-columns: repeat(3, 1fr);
     row-gap: 3%;
 
-    .divyoutubetittles {
-        width: 100%;
-        height: 13%;
-        font-size: 1.5em;
-        background-color: beige;
-
-        .youtubetittles {
-            color: brown;
+    .divyoutube{
+        transition: 1s;
+        .divyoutubetittles {
+            width: 100%;
+            height: 13%;
+            font-size: 1.5em;
+            background-color: beige;
+    
+            .youtubetittles {
+                color: brown;
+            }
+        }
+        &:hover{
+            transform: scale(1.5);
+            background-color: bisque;
         }
     }
+
+    
+
 }

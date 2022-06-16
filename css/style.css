@@ -1,34 +1,28 @@
 .divlogo {
-  width: 100%;
-  background-color: rgba(240, 248, 255, 0.626);
-  display: flex;
-  justify-content: space-around; }
+  width: 19%;
+  height: 12%;
+  margin: 0;
+  padding: 0; }
   .divlogo .logoqueen {
-    width: 19%;
-    height: 12%; }
+    width: 6rem;
+    margin: 0;
+    padding-left: 0; }
 
 .zonanav {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  background-color: rgba(0, 0, 0, 0.749);
-  list-style-type: none;
-  flex-wrap: wrap; }
-  .zonanav .controlesdenavegacion {
-    font-size: 1.3vw;
-    list-style-type: none;
-    color: white;
-    border: 2px #d1bbbb;
-    padding: 0 6% 0 6%;
-    border-style: solid; }
-  .zonanav .controlesdenavegacion:hover {
-    transition: 1s;
-    background-color: #d1bbbb;
-    color: black; }
+  background-color: rgba(253, 254, 255, 0.829);
+  color: white; }
+  .zonanav .divlogonavbar {
+    right: 0; }
+    .zonanav .divlogonavbar .controlesdenavegacion {
+      border: 2px solid #d1bbbb;
+      font-size: 1.2rem; }
+    .zonanav .divlogonavbar .controlesdenavegacion:hover {
+      transition: 1s;
+      background-color: #d1bbbb;
+      color: black; }
 
 body {
-  background-image: url(img/back-ground2.jpg);
+  background-image: url(https://townsquare.media/site/295/files/2014/10/QueenAlbums.jpg?w=980&q=75);
   background-repeat: repeat;
   background-attachment: fixed; }
 
@@ -43,15 +37,13 @@ body {
     display: block;
     position: sticky; }
 
-#historia {
+.historia {
   display: flex;
-  justify-self: center; }
-  #historia p {
-    font-size: 2em;
-    font-style: italic;
-    color: aliceblue;
-    background-color: #353030;
-    margin: 13% 0 13% 0; }
+  justify-self: center;
+  font-size: 2em;
+  font-style: italic;
+  color: aliceblue;
+  background-color: #353030; }
 
 .popularesgrid {
   height: 100%;
@@ -59,20 +51,24 @@ body {
   grid-template-rows: repeat(2, 98%);
   grid-template-columns: repeat(3, 1fr);
   row-gap: 3%; }
-  .popularesgrid .divyoutubetittles {
-    width: 100%;
-    height: 13%;
-    font-size: 1.5em;
-    background-color: beige; }
-    .popularesgrid .divyoutubetittles .youtubetittles {
-      color: brown; }
+  .popularesgrid .divyoutube {
+    transition: 1s; }
+    .popularesgrid .divyoutube .divyoutubetittles {
+      width: 100%;
+      height: 13%;
+      font-size: 1.5em;
+      background-color: beige; }
+      .popularesgrid .divyoutube .divyoutubetittles .youtubetittles {
+        color: brown; }
+    .popularesgrid .divyoutube:hover {
+      transform: scale(1.5);
+      background-color: bisque; }
 
 #canciones {
   width: 100%;
   height: 90%;
   display: flex;
-  justify-content: center;
-  margin: 8% 0 6% 0; }
+  justify-content: center; }
   #canciones .navcanciones {
     color: white;
     text-decoration: none; }
@@ -94,3 +90,85 @@ body {
             background-color: black;
             color: white;
             font-size: 1.6rem; }
+
+#nosotros {
+  width: 100%;
+  background-color: #515151;
+  margin: 5% 0 13% 0; }
+  #nosotros .defansparafans {
+    font-size: 3rem;
+    color: #81c2f5;
+    background-color: rgba(143, 143, 227, 0.445);
+    display: flex;
+    justify-content: center; }
+  #nosotros .sectionfooter {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+    #nosotros .sectionfooter .navredsocial {
+      display: flex; }
+      #nosotros .sectionfooter .navredsocial .ulredsocial {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap; }
+        #nosotros .sectionfooter .navredsocial .ulredsocial .liredsocial {
+          width: 6rem; }
+          #nosotros .sectionfooter .navredsocial .ulredsocial .liredsocial .redsocial {
+            width: 3rem; }
+
+#contactanos {
+  background-color: rgba(53, 48, 48, 0.768);
+  margin-top: 5rem; }
+  #contactanos .tituloform {
+    font-size: 2.2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  #contactanos .contactanos {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15rem; }
+    #contactanos .contactanos .form {
+      background-color: rgba(53, 48, 48, 0.768);
+      border-radius: 3rem;
+      color: #999;
+      font-size: 0.8rem;
+      width: 25rem;
+      display: inline-block;
+      text-align: center; }
+      #contactanos .contactanos .form .field {
+        border: solid 1px #ccc;
+        padding: 10px; }
+        #contactanos .contactanos .form .field:focus {
+          border-color: #18A383; }
+      #contactanos .contactanos .form input,
+      #contactanos .contactanos .form textarea {
+        border: 0;
+        outline: none;
+        width: 280px; }
+      #contactanos .contactanos .form .center-content {
+        text-align: center; }
+
+.btn2 {
+  border-radius: 3rem;
+  display: inline-block;
+  padding: 20px 15px;
+  text-decoration: none;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3); }
+
+.btn-green2 {
+  color: white;
+  background-color: #3CC93F; }
+  .btn-green2:hover {
+    background-color: #37B839; }
+  .btn-green2:active {
+    background-color: #29962A; }
+
+.minititulos {
+  font-size: 3rem;
+  background-color: rgba(53, 48, 48, 0.768);
+  color: brown;
+  display: inline-block;
+  text-align: center; }

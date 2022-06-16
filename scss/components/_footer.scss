@@ -1,0 +1,44 @@
+#nosotros {
+
+    width: 100%;
+    background-color: rgb(81, 81, 81);
+    margin: 5% 0 13% 0;
+
+    .defansparafans {
+        font-size: 3rem;
+        color: rgb(129, 194, 245);
+        background-color: rgba(143, 143, 227, 0.445);
+        display: flex;
+        justify-content: center;
+    }
+
+    .sectionfooter {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+        .navredsocial {
+            display: flex;
+
+            .ulredsocial {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+
+                .liredsocial {
+                    width: 6rem;
+
+                    .redsocial {
+                        width: 3rem;
+                    }
+
+                }
+
+            }
+
+        }
+
+
+    }
+
+}

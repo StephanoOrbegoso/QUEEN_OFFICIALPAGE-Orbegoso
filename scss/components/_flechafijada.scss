@@ -1,0 +1,13 @@
+.sectionflecha {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 6%;
+
+    .flechafijada {
+        width: 100%;
+        margin-left: auto;
+        display: block;
+        position: sticky;
+    }
+}

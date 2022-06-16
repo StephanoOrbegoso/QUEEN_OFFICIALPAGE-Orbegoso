@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <div class="divnavbar">
+            <nav class="navbar navbar-expand-lg zonanav ">
+                <div class="container-fluid divlogonavbar">
+                    <div class="divlogo">
+                        <a class="navbar-brand" href="#"><img class="logoqueen" src="img/Queen-Logo.png" alt=""></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul id="ulnavbar" class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item controlesdenavegacion">
+                                <a id="anavbar" class="nav-link active" href="#historia">HISTORIA</a>
+                            </li>
+                            </li>
+                            <li class="nav-item controlesdenavegacion">
+                                <a id="anavbar" class="nav-link active" href="#populares">POPULARES</a>
+                            </li>
+                            <li class="nav-item controlesdenavegacion">
+                                <a id="anavbar" class="nav-link active" href="#canciones">CANCIONES</a>
+                            </li>
+                            <li class="nav-item controlesdenavegacion">
+                                <a id="anavbar" class="nav-link active" href="#nosotros">NOSOTROS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <!-- fin del header -->
+    <!-- boton para regresar al inicio del la pagina -->
+    <div class="sectionflecha">
+        <nav class="flecha">
+            <ul>
+                <li>
+                    <a href="#header">
+                        <img class="flechafijada" src="img/flecha.png" alt="">
+                        <!-- logo que iria en la esquina derecha de la pagina  -->
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <section id="carrusel" class="divcarrusel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/img/queen1.jpg" class="d-block w-100" alt="foto de la banda queen">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/queen2.jpg" class="d-block w-100" alt="foto de la banda queen">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/queen3" class="d-block w-100" alt="foto de la banda queen">
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    </section>
+    <section id="historia">
+        <!-- su historia resumida -->
+        <p class="historia">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, laudantium facere quasi
+            exercitationem commodi veniam qui. Dolorem harum consequatur fugiat? Accusamus similique nam fuga doloremque
+            aliquid culpa cum architecto asperiores!
+            Illum quasi totam delectus, quisquam similique voluptatum? Officiis adipisci non cupiditate error provident,
+            corrupti natus tenetur asperiores dignissimos distinctio sunt excepturi porro quibusdam tempore incidunt
+            deserunt, obcaecati vel optio quidem?
+            Eum asperiores quae hic, ex aliquid, esse mollitia saepe officiis explicabo adipisci doloribus! Natus
+            praesentium a ipsum nulla, dicta veritatis ab nobis aut nam nesciunt rerum nostrum perspiciatis recusandae
+            nihil!
+            Ex, beatae dignissimos! Ut labore voluptatem quibusdam expedita, deleniti minus alias cupiditate optio
+            consequuntur voluptatum asperiores molestias qui culpa vero nemo dolor ex explicabo inventore quo quidem
+            incidunt? Nesciunt, repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sequi error,
+            deserunt odit obcaecati, ab rem quo suscipit libero atque sed minus, molestiae consequatur veniam numquam.
+            Unde illo numquam fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum perferendis est
+            distinctio, quae, ea exercitationem placeat natus in maiores impedit sit omnis quam aperiam sint at
+            praesentium incidunt facere sed? Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta provident
+            iusto minus quasi sint, modi culpa repudiandae cupiditate quas autem aperiam eaque nulla, tenetur dolorum
+            iste nemo a consectetur possimus?</p>
+    </section>
+    <!--empieza area con grid de bootstrap-->
+    <!-- mas populares -->
+    <section id="populares" class="container">
+        <section class="row secpopulares">
+            <div class="card col-md col-sm-12 col-lg-4 divyoutube p-3 mb-2 bg-secondary">
+  
+                <div class="card-body youtubetittles">
+                    <h5 class="card-title">WE WILL ROCK YOU</h5>
+                </div>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-tJYN-eG1zk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="card col-md col-sm-12 col-lg-4 divyoutube p-3 mb-2 bg-secondary">
+                <div class="card-body youtubetittles">
+                    <h5 class="card-title">BOHEMIAN RHAPSODY</h5>
+                </div>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/fJ9rUzIMcZQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="card col-md col-sm-12 col-lg-4 divyoutube p-3 mb-2 bg-secondary">
+                <div class="card-body youtubetittles">
+                    <h5 class="card-title">I WANT TO BREAK FREE</h5>
+                </div>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/f4Mc-NYPHaQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="row secpopulares">
+            <div class="card col-md col-sm-12 col-lg-4 divyoutube p-3 mb-2 bg-secondary">
+                <div class="card-body youtubetittles">
+                    <h5 class="card-title">ANOTHER ONE BITES THE DUST</h5>
+                </div>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/rY0WxgSXdEE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="card col-md col-sm-12 col-lg-4 divyoutube p-3 mb-2 bg-secondary">
+                <div class="card-body youtubetittles">
+                    <h5 class="card-title">DON'T STOP ME NOW</h5>
+                </div>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HgzGwKwLmgM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="card col-md col-sm-12 col-lg-4 divyoutube p-3 mb-2 bg-secondary">
+                <div class="card-body youtubetittles">
+                    <h5 class="card-title">KILLER QUEEN</h5>
+                </div>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2ZBtPf7FOoM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+    </section>
+
+    <section id="canciones" class="container">
+
+        <!-- aqui no pondre todas las canciones aún ya que son demasiadas pero hare las mas escuchadas por ahora-->
+        <section class="row seccanciones">
+            <div class="col-md col-sm-12 col-lg-4 divcanciones">
+                <nav class="navcanciones">
+                    <ol class="masterlistofsongs">
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=t99KH0TR-J4&ab_channel=QueenOfficial">The Show
+                                Must Go
+                                On</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=a01QQZyl-_I&ab_channel=QueenOfficial">Under
+                                Pressure</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=kijpcUv-b8M&ab_channel=QueenOfficial">Somebody To
+                                Love</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs" href="https://youtu.be/zO6D_BAuYCI">Crazy Little Thing Called
+                                Love</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs" href="https://youtu.be/MOhuK7aZayw">Who Wants to Live Forever</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=azdwsXLmrHE&ab_channel=QueenOfficial">Radio Ga
+                                Ga</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs" href="https://youtu.be/2ZBtPf7FOoM">Killer Queen</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=PI3LAgGBxqU&ab_channel=QueenOfficial">Good Old
+                                Fashioned
+                                Lover Boy</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs" href="https://youtu.be/kE8kGMfXaFU">'39</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=a01QQZyl-_I&ab_channel=QueenOfficial">Under
+                                Pressure</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=kijpcUv-b8M&ab_channel=QueenOfficial">Somebody To
+                                Love</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs" href="https://youtu.be/zO6D_BAuYCI">Crazy Little Thing Called
+                                Love</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs" href="https://youtu.be/MOhuK7aZayw">Who Wants to Live Forever</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="col-md col-sm-12 col-lg-4 divcanciones">
+                <nav class="navcanciones">
+                    <ol class="masterlistofsongs">
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=t99KH0TR-J4&ab_channel=QueenOfficial">The Show
+                                Must Go
+                                On</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=a01QQZyl-_I&ab_channel=QueenOfficial">Under
+                                Pressure</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=kijpcUv-b8M&ab_channel=QueenOfficial">Somebody To
+                                Love</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs" href="https://youtu.be/zO6D_BAuYCI">Crazy Little Thing Called
+                                Love</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs" href="https://youtu.be/MOhuK7aZayw">Who Wants to Live Forever</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=azdwsXLmrHE&ab_channel=QueenOfficial">Radio Ga
+                                Ga</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs" href="https://youtu.be/2ZBtPf7FOoM">Killer Queen</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=PI3LAgGBxqU&ab_channel=QueenOfficial">Good Old
+                                Fashioned
+                                Lover Boy</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs" href="https://youtu.be/kE8kGMfXaFU">'39</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=a01QQZyl-_I&ab_channel=QueenOfficial">Under
+                                Pressure</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=kijpcUv-b8M&ab_channel=QueenOfficial">Somebody To
+                                Love</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs" href="https://youtu.be/zO6D_BAuYCI">Crazy Little Thing Called
+                                Love</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs" href="https://youtu.be/MOhuK7aZayw">Who Wants to Live Forever</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="col-md col-sm-12 col-lg-4 divcanciones">
+                <nav class="navcanciones">
+                    <ol class="masterlistofsongs">
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=t99KH0TR-J4&ab_channel=QueenOfficial">The Show
+                                Must Go
+                                On</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=a01QQZyl-_I&ab_channel=QueenOfficial">Under
+                                Pressure</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=kijpcUv-b8M&ab_channel=QueenOfficial">Somebody To
+                                Love</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs" href="https://youtu.be/zO6D_BAuYCI">Crazy Little Thing Called
+                                Love</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs" href="https://youtu.be/MOhuK7aZayw">Who Wants to Live Forever</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=azdwsXLmrHE&ab_channel=QueenOfficial">Radio Ga
+                                Ga</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs" href="https://youtu.be/2ZBtPf7FOoM">Killer Queen</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=PI3LAgGBxqU&ab_channel=QueenOfficial">Good Old
+                                Fashioned
+                                Lover Boy</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs" href="https://youtu.be/kE8kGMfXaFU">'39</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=a01QQZyl-_I&ab_channel=QueenOfficial">Under
+                                Pressure</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs"
+                                href="https://www.youtube.com/watch?v=kijpcUv-b8M&ab_channel=QueenOfficial">Somebody To
+                                Love</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs" href="https://youtu.be/zO6D_BAuYCI">Crazy Little Thing Called
+                                Love</a>
+                        </li>
+                        <li class="licanciones">
+                            <a class="listofsongs" href="https://youtu.be/MOhuK7aZayw">Who Wants to Live Forever</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+    </section>
+
+    <!-- footer -->
+    <footer id="nosotros">
+        <div>
+            <p class="defansparafans">
+                DE FANS PARA FANS
+            </p>
+        </div>
+        <section class="sectionfooter">
+            <nav class="navredsocial">
+                <ul class="ulredsocial">
+                    <li class="liredsocial">
+                        <a href="https://fb.com">
+                            <img class="redsocial" src="img/fb.png" alt="">
+                        </a>
+                    </li>
+                    <li class="liredsocial">
+                        <a href="">
+                            <img class="redsocial" src="img/twitter.png" alt="">
+                        </a>
+                    </li>
+                    <li class="liredsocial">
+                        <a href="">
+                            <img class="redsocial" src="img/insta.png" alt="">
+                        </a>
+                    </li>
+                    <li class="liredsocial">
+                        <a href="">
+                            <img class="redsocial" src="img/discord.png" alt="">
+                        </a>
+                    </li>
+                    <li class="liredsocial">
+                        <a href="">
+                            <img class="redsocial" src="img/whatsapp.png" alt="">
+                        </a>
+                    </li>
+                    <li class="liredsocial">
+                        <a href="">
+                            <img class="redsocial" src="img/telegram.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+
+
+
+
+
+
+        <!-- js bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

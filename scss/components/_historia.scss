@@ -1,5 +1,5 @@
 @import "base/colors";
-
+@import "base/mixin";
 .historia{
     @include histo(flex, center, 1.9rem, italic, $letras-basico, $bg-historia)
 }

@@ -22,17 +22,18 @@
 .form {
     background-color: $bg-formulario;
     border-radius: 3rem;
-    color: #999;
+    border: $bg-zonanav solid  0.2rem;
+    color: $color-formulario;
     font-size: 0.8rem;
     width: 25rem;
     display: inline-block;
     text-align: center;
     .field {
-        border: solid 1px #ccc;
+        border: solid 1px $formulario-field;
         padding: 10px;
 
         &:focus {
-            border-color: #18A383;
+            border-color: $formulario-focus;
         }
     }
 

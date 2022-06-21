@@ -1,13 +1,14 @@
+@import "base/colors";
 #nosotros {
 
     width: 100%;
-    background-color: rgb(81, 81, 81);
+    background-color: $bg-footer;
     margin: 5% 0 13% 0;
 
     .defansparafans {
         font-size: 3rem;
-        color: rgb(129, 194, 245);
-        background-color: rgba(143, 143, 227, 0.445);
+        color: $letra-footer;
+        background-color: $bg-footer;
         display: flex;
         justify-content: center;
     }
@@ -30,6 +31,8 @@
 
                     .redsocial {
                         width: 3rem;
+                        background-color: $bg-redsocial;
+                        border-style: groove $bg-footer;
                     }
 
                 }

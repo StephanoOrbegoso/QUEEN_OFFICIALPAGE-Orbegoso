@@ -1,4 +1,4 @@
-
+@import "base/colors";
 .btn2{
 	border-radius: 3rem;
 	display: inline-block;
@@ -9,11 +9,11 @@
 
 .btn-green2{
 	color: white;
-	background-color: #314e31;
+	background-color: $boton;
 	&:hover{
-		background-color: #2d452d;	
+		background-color: $boton;	
 	}
 	&:active{
-		background-color: #264227;
+		background-color: $boton;
 	}
 }

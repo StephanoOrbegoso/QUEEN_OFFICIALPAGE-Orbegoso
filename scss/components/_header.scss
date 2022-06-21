@@ -14,8 +14,7 @@
 }
 
 .zonanav {
-    background-color: rgba(253, 254, 255, 0.829);
-    color: white;
+    background-color: $bg-zonanav;
 
     .divlogonavbar {
         right: 0;
@@ -23,7 +22,7 @@
 
 
         .controlesdenavegacion {
-            border: 2px solid rgb(209, 187, 187);
+            border: 2px solid $color-bolrdes-zonanav;
             font-size: 1.2rem;
         }
 

@@ -40,7 +40,7 @@ body {
 .historia {
   display: flex;
   justify-self: center;
-  font-size: 2em;
+  font-size: 1.9em;
   font-style: italic;
   color: aliceblue;
   background-color: #353030; }
@@ -168,7 +168,7 @@ body {
 
 .minititulos {
   font-size: 3rem;
-  background-color: rgba(53, 48, 48, 0.768);
-  color: brown;
+  background-color: rgba(19, 18, 18, 0.829);
+  color: #eecbcb;
   display: inline-block;
   text-align: center; }

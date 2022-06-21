@@ -1,0 +1,8 @@
+@mixin histo($display, $alineacion, $tamaño, $estilo, $color, $background) {
+    display: $display;
+    justify-self: $alineacion;
+    font-size: $tamaño;
+    font-style: $estilo;
+    color: $color;
+    background-color: $background;
+}

@@ -405,21 +405,21 @@
     <section id="contactanos">
         <h6 class="tituloform">CONTÁCTANOS PARA MáS INFORMACIÓN</h6>
         <section class="contactanos">
-            <form class="form" action="">
-                <p>Nombre:</p>
-                <input type="text" class="field"> <br />
+            <form class="form" action="form.php" method="POST">
+                <p for="full-name">Nombre:</p>
+                <input type="text" name="full-name" class="field"> <br />
 
-                <p>Correo electrónico:</p>
-                <input type="text" class="field"> <br />
+                <p for="email">Correo electrónico:</p>
+                <input type="email" name="email" placeholder="joe@example.com" class="field"> <br />
 
                 <p>Asunto:</p>
-                <input type="text" class="field"> <br />
+                <input type="text" name="asunto" class="field"> <br />
 
                 <p>Mensaje:</p>
-                <textarea class="field"></textarea> <br />
+                <textarea name="textarea" class="field"></textarea> <br />
 
                 <p class="center-content">
-                    <input type="submit" class="btn2 btn-green2" value="Enviar Datos">
+                    <input type="submit" class="btn2 btn-green2" value="Enviar">
                 </p>
 
             </form>

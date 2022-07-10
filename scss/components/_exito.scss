@@ -1,0 +1,19 @@
+@import "base/colors";
+
+.header-exito{
+background-color: $bg-zonanav;
+display: flex;
+flex-direction: column;
+border-style: dashed dotted;
+border: 0.1rem 0 $backgroundcolor;
+    .h1-exito{
+    display: flex;
+    justify-content: center;
+    }
+    .p-exito{
+        display: flex;
+        justify-content: center;
+        background-color: $color-formulario;
+        margin-right: 0;
+    }
+}
